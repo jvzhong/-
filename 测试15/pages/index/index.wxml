@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">获取7注彩票</view>
+  <view>产生的彩票为：</view>
+  <view wx:for="{{rand}}">{{item}}</view>
+  <button type='primary' bindtap="newRand">点击获取彩票</button>
+  <view class=".textStyle">
+    电科19-2 赵文浩201923010233
+  </view>
+</view>
