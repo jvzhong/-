@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">利用循环语句求复利</view>
+  <view>
+  <view class=".textStyle">本金</view>
+  <input placeholder="请输入数据" type="number" bindblur="startNum"></input>
+  <view class=".textStyle">利率</view>
+  <input placeholder="请输入百分比转换值" type="number" bindblur="endNum"></input>
+  <view class=".textStyle">年份</view>
+  <input placeholder="请输入数据" type="number" bindblur="eendNum"></input>
+  </view>
+  <view>复利为：{{sum}}</view>
+  <button type="primary" bindtap="calc">求复利</button>
+  <view class=".textStyle">
+    电科19-2 赵文浩201923010233
+  </view>
+</view>
+
