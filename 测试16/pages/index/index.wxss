@@ -1,0 +1,4 @@
+/**index.wxss**/
+.text01{
+  color:blue;
+}
